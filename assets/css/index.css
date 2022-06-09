@@ -1,0 +1,222 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 800px;
+    background-color: rgb(245, 245, 245);
+    
+}
+
+* {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body img{
+    width: 110px;
+}
+
+body main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+body main article {
+    width: 935px;
+    display: flex;
+    flex-direction: row;
+    height: 744px;
+    justify-content: center;
+    align-items: center;
+}
+
+body main article .smartphone-content {
+    width: 380px;
+    height: 590px;
+}
+
+body main article .smartphone-content .phoneBackground {
+    background: no-repeat;
+    background-image: url(../../src/img/smartphone-screen.png);
+    background-size: cover;
+    background-position-x: -36px;
+    background-position-y: 20px;
+    width: 385px;
+    height: 590px;
+}
+
+body main article .smartphone-content .phoneBackground img {
+    position: absolute;
+    margin: 46px 0px 0px 110px;
+    height: 500px;
+    width: auto;
+}
+
+body main article .form-users {
+    width: 350px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+body main article .form-users .content-logo,
+body main article .form-users .template_users{
+    background-color: #fff;
+    border: 0.5px solid rgb(217, 217, 217);
+    padding: 15px;
+    width: 310px;
+}
+
+body main article .form-users .content-logo {
+    text-align: center;
+    padding-top: 45px;
+}
+
+body main article .form-users .content-logo p{
+    color: grey;
+    font-size: 14px;
+}
+
+body main article .form-users .content-logo .logo {
+    text-align: center;
+}
+
+body main article .form-users .content-logo .line-css{
+    width: 100%;
+    border-color: #fff;
+    background-color: rgb(238, 238, 238);
+    padding: 0.1px 0px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+body main article .form-users .content-logo .logo img{
+    width: auto;
+}
+
+body main article .form-users .content-logo .accounts .user{
+    margin: 10px 0px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(34, 34, 34);
+    text-align: left;
+    display: flex;
+}
+
+body main article .form-users .content-logo .accounts .user .img-log-user{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+body main article .form-users .content-logo .accounts .user .img-log-user img{
+    border-radius: 100%;
+    width: 30px;
+    margin-right: 10px;
+}
+
+body main article .form-users .content-logo .accounts button{
+    background-color: rgb(0, 146, 225);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 6px 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+body main article .form-users .template_users{
+    margin-top: 8px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+
+body main article .form-users .template_users .content{
+    width: 100%;
+    text-align: center;
+}
+
+body main article .form-users .template_users a{
+    text-decoration: none;
+    color: rgb(0, 136, 255);
+    font-weight: 500;
+}
+
+body main article .form-users .instagram-app{
+    margin: 13px auto;
+}
+
+body main article .form-users .instagram-app p{
+    font-size: 14px;
+    color: rgb(28, 28, 28);
+    margin: 0;
+    margin-bottom: 15px;
+}
+body main article .form-users .instagram-app .linkDown-application{
+    margin: 10px auto;
+}
+
+body main article .form-users .instagram-app .linkDown-application a img{
+    width: 130px;
+}
+
+/* FOOTER CSS */
+
+body footer * {
+    color: gray;
+    font-size: 12px;
+    font-weight: lighter;
+    zoom: 0.99;
+}
+
+body footer .links {
+    padding: 0 40px;
+    text-align: center;
+    line-height: 1.95em;
+    margin-top: 20px;
+}
+
+body footer .links a {
+    margin: 0 8px;
+    font-size: 12px;
+    text-decoration: none;
+    text-align: center;
+}
+
+body footer .translate {
+    display: flex;
+    justify-content: center;
+    font-size: 11px;
+    margin-top: 15px;
+}
+
+body footer .translate select {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+body footer .translate select,
+body footer .translate p {
+    margin: 0 5px;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .smartphone-content{
+        display: none;
+    }
+    body main article {
+        width: max-content;
+    }
+}
