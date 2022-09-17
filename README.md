@@ -5,7 +5,7 @@
 </div>
 
 <h3>🏆 Projeto Desenvolvido: </h3>
-<p>Praticando um pouco do Front-End com CSS e HTML puro.</p>
+<p>Cópia perfeita da página Inicial do Instagram, utilizando HTML e CSS puro.</p>
 
 
 <h3>🏗️ Tecnologias Usadas: </h3>
