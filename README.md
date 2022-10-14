@@ -1,7 +1,8 @@
 # 👨‍💻 Cópia da Página Inicial do Instagram 👨‍💻
 
 <div>
-  <img width="360px" src= ""/>
+  <img width="360px" src= "https://user-images.githubusercontent.com/71043862/195948276-4c58261c-8cdc-4be2-a5dd-2a90b34e13c6.png"/>
+
 </div>
 
 <h3>🏆 Projeto Desenvolvido: </h3>
